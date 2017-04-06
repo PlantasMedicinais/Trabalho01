@@ -15,7 +15,7 @@ Para que o usuário tenha acesso ao site onde poderá, também, procurar plantas
 O administrador tem acesso direto ao cadastro de plantas e, assim como o usuário, à procura de plantas do seu interesse.<br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-
+![Alt text] (https://github.com/PlantasMedicinais/Trabalho01/blob/master/Medicina.pdf)
 
 
 ### 5.MODELO CONCEITUAL<br>

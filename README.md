@@ -19,11 +19,9 @@ O administrador tem acesso direto ao cadastro de plantas e, assim como o usuári
 
 
 ### 5.MODELO CONCEITUAL<br>
-    a) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
-    
-    b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-
+  https://github.com/PlantasMedicinais/Trabalho01/blob/master/CONCEITUAL_1.brM
+  
+  
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]

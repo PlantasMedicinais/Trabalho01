@@ -19,9 +19,7 @@ O administrador tem acesso direto ao cadastro de plantas e, assim como o usuári
 
 
 ### 5.MODELO CONCEITUAL<br>
-  https://github.com/PlantasMedicinais/Trabalho01/blob/master/CONCEITUAL_1.brM
-  https://github.com/PlantasMedicinais/Trabalho01/blob/master/Print%20trabalho.png
-  
+ 
   
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]

@@ -27,20 +27,20 @@ https://github.com/PlantasMedicinais/Trabalho01/blob/master/Print_Trabalho_Atual
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+a)CEP: Foi colocado como composto porque entende-se que "CEP" abranja informações como rua, bairro, cidade e unidade federativa. Então,   assim que inserido o cep no sistema, automaticamente seriam inseridas as informações que o compõe.
+
+b)Endereço: Foi colocado como composto porque entende-se que "Endereço" abranja o CEP e todas as suas composições, o número e o           complemento.
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+Usuário: Tabela que armazena as informações do usuário.
 
+Local: Tabela que armazena informações do edereço do usuário.
+
+Localidade: Tabela que armazena informações da localidade da planta.
+
+Tipos: Tabela que armazena informações dos tipos das plantas.
+
+Planta: Tabela que armazena informações das plantas.
 
 ### 6	MODELO LÓGICO<br>
 ### 7	MODELO FÍSICO<br>

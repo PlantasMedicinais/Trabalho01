@@ -23,8 +23,8 @@ https://github.com/PlantasMedicinais/Trabalho01/blob/master/Conceitual_Atualizad
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/Print_Trabalho_Atualizado.png
   
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    SAE: Thaynara
+    SEBO PLUS: Emanoele
 
 #### 5.2 DECISÕES DE PROJETO
 a)CEP: Foi colocado como composto porque entende-se que "CEP" abranja informações como rua, bairro, cidade e unidade federativa. Então,   assim que inserido o cep no sistema, automaticamente seriam inseridas as informações que o compõe.

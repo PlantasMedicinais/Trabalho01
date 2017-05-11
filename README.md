@@ -19,8 +19,8 @@ O administrador tem acesso direto ao cadastro de plantas e, assim como o usuári
 
 
 ### 5.MODELO CONCEITUAL<br>
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/Conceitual_Atualizado2.brM
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/Print%20trabalho%20atualizado%202.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/PlantasMedicinaisATUALIZADASSO.brM
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/print%20bd%20conceitual.png
   
 #### 5.1 Validação do Modelo Conceitual
     SAE: Thaynara

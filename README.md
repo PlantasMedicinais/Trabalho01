@@ -43,12 +43,16 @@ Tipos: Tabela que armazena informações dos tipos das plantas.
 Planta: Tabela que armazena informações das plantas.
 
 ### 6	MODELO LÓGICO<br>
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/ModeloLogicoBDAtualizado.brM
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/printatualizadologico.png
+
 ### 7	MODELO FÍSICO<br>
 
         Entrega até este ponto em (data a ser definida)
         
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a :

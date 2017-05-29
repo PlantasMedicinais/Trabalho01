@@ -48,6 +48,8 @@ https://github.com/PlantasMedicinais/Trabalho01/blob/master/printatualizadologic
 
 ### 7	MODELO FÍSICO<br>
 
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/ModeloFisicoBD.sql
+
 CREATE TABLE ESTADO (
 id_estado INTEGER PRIMARY KEY,
 descricao VARCHAR(2)

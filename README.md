@@ -259,6 +259,24 @@ https://elias.praciano.com/2013/02/mysql-comandos-basicos/ e Lista de exercicios
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/1.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/2.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/3.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/4.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/5.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/6.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/7.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/8.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/9.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/10.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/11.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/12.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/13.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/14.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/15.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/16.png
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/17.png
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>

@@ -259,22 +259,39 @@ https://elias.praciano.com/2013/02/mysql-comandos-basicos/ e Lista de exercicios
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
+select id_cidade,descricao from cidade;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/1.png
+select id_contato,descricao,id_usuario,id_tipodecontato from contato;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/2.png
+select id_tipodecontato,descricao form tipo_contato;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/3.png
+select descricao,id_cor_da_folha form cor_folha;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/4.png
+select id_estado,descricao from estado;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/5.png
+select longi,lat,id_planta from localidade;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/6.png
+select id_mododeuso, descricao from modo_de_uso;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/7.png
+select id_bairro, descricao from bairro;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/8.png
+select descricao, id_nome_popular, id_planta from nome_popular;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/9.png
+select textura_folha, foto, tipo_folha, modo_de_uso, indicacoes, nome_cientifico, id_usuario, id, id_textura from planta;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/10.png
+select id_receita, descricao from receita;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/11.png
+select id_tamanho, descricao from tamanho_folha;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/12.png
+select descricao, id_textura from textura_folha;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/13.png
+select descricao, id_tipodecontato from tipo_contato;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/14.png
+select detalhamento, nome, id from tipo_planta;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/15.png
+select id_tipo_usuario, descricao from tipo_usuario;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/16.png
+select data_nasc, id_usuario, passw, username, id_tipo_usuario from usuario;
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/17.png
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>

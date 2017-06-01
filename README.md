@@ -296,9 +296,12 @@ https://github.com/PlantasMedicinais/Trabalho01/blob/master/17.png
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
+select*from usuario where cidade = 'vila velha'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/18.png
+select*from usuario where estado = 'ES'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/19.png
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/20.png
+select*from textura_folha where descricao = 'lisa'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/21.png
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>

@@ -296,9 +296,9 @@ https://github.com/PlantasMedicinais/Trabalho01/blob/master/17.png
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
-select*from usuario where cidade = 'vila velha'
+select * from usuario where cidade = 'vila velha'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/18.png
-select*from usuario where estado = 'ES'
+select * from usuario where estado = 'ES'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/19.png
 select*from planta where tipo_folha = 'grande'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/20.png

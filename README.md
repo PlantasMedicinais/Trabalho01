@@ -300,6 +300,7 @@ select*from usuario where cidade = 'vila velha'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/18.png
 select*from usuario where estado = 'ES'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/19.png
+select*from planta where tipo_folha = 'grande'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/20.png
 select*from textura_folha where descricao = 'lisa'
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/21.png

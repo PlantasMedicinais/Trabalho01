@@ -81,57 +81,91 @@ https://elias.praciano.com/2013/02/mysql-comandos-basicos/ e Lista de exercicios
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-*(ADICIONAR O COMANDO PARA PRINTS)*
-![Alt text](BOTAR O LINK AQUI DENTRO E TIRAR OS PARENTESES)?raw=true "Title")
-
 select id_cidade,descricao from cidade;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/1.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/1.png?raw=true "Title")
+
 select id_contato,descricao,id_usuario,id_tipodecontato from contato;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/2.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/2.png?raw=true "Title")
+
 select id_tipodecontato,descricao form tipo_contato;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/3.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/3.png?raw=true "Title")
+
 select descricao,id_cor_da_folha form cor_folha;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/4.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/4.png?raw=true "Title")
+
 select id_estado,descricao from estado;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/5.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/5.png?raw=true "Title")
+
 select longi,lat,id_planta from localidade;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/6.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/6.png?raw=true "Title")
+
 select id_mododeuso, descricao from modo_de_uso;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/7.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/7.png?raw=true "Title")
+
 select id_bairro, descricao from bairro;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/8.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/8.png?raw=true "Title")
+
 select descricao, id_nome_popular, id_planta from nome_popular;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/9.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/9.png?raw=true "Title")
+
 select textura_folha, foto, tipo_folha, modo_de_uso, indicacoes, nome_cientifico, id_usuario, id, id_textura from planta;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/10.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/10.png?raw=true "Title")
+
 select id_receita, descricao from receita;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/11.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/11.png?raw=true "Title")
+
 select id_tamanho, descricao from tamanho_folha;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/12.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/12.png?raw=true "Title")
+
 select descricao, id_textura from textura_folha;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/13.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/13.png?raw=true "Title")
+
 select descricao, id_tipodecontato from tipo_contato;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/14.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/14.png?raw=true "Title")
+
 select detalhamento, nome, id from tipo_planta;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/15.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/15.png?raw=true "Title")
+
 select id_tipo_usuario, descricao from tipo_usuario;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/16.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/16.png?raw=true "Title")
+
 select data_nasc, id_usuario, passw, username, id_tipo_usuario from usuario;
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/17.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/17.png?raw=true "Title")
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
-*(ADICIONAR O COMANDO PARA PRINTS)*
-![Alt text](BOTAR O LINK AQUI DENTRO E TIRAR OS PARENTESES)?raw=true "Title")
-
 select * from usuario where cidade = 'vila velha'
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/18.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/18.png?raw=true "Title")
+
 select * from usuario where estado = 'ES'
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/19.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/19.png?raw=true "Title")
+
 select * from planta where tipo_folha = 'grande'
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/20.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/20.png?raw=true "Title")
+
 select * from textura_folha where descricao = 'lisa'
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/21.png
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/21.png?raw=true "Title")
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>

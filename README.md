@@ -54,7 +54,7 @@ https://github.com/PlantasMedicinais/Trabalho01/blob/master/ModeloFisicoBD.sql
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/Comandos%20Insert%2C%20bd.txt *(MUDAR PARA SQL)*
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/SCRIPT.sql
 
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
 .

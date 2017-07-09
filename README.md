@@ -366,6 +366,6 @@ where textura_folha in(select textura_folha from planta where id_Planta < 3);
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
-Nosso grupo, em toda execução do trabalho, encontrou dificuldades em executar os tópicos relacionados ao comando JOIN (left/right outer join, self join, inner join).
+Nosso grupo, em toda execução do trabalho, encontrou dificuldades em executar o tópico relacionado à subconsultas.
         
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/

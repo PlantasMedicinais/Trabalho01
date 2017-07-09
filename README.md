@@ -325,6 +325,26 @@ group by Data_Nasc;
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
+select Nome_Completo, Data_Nasc, tipo_usuario.Descricao from tipo_usuario
+right outer join usuario on(usuario.id_usuario = tipo_usuario.id_tipo_usuario); 
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
+
+select descricao, usuario.Nome_Completo, usuario.Data_Nasc from usuario
+right join tipo_usuario on(tipo_usuario.id_tipo_usuario = usuario.id_usuario);
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
+
+select passw, Nome_Completo, planta.textura_folha from planta
+left join usuario on(usuario.id_usuario = planta.id_planta);
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
+
+select usuario.passw, usuario.Nome_Completo, textura_folha from usuario
+left join planta on(planta.id_planta = usuario.id_usuario);
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
+
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>

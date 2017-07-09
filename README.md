@@ -33,15 +33,80 @@ a)CEP: Foi colocado como composto porque entende-se que "CEP" abranja informaç�
 b)Endereço: Foi colocado como composto porque entende-se que "Endereço" abranja o CEP e todas as suas composições, o número e o           complemento.
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-Usuário: Tabela que armazena as informações do usuário.
+Usuário: Tabela que armazena as informações do usuário;
+id_usuario: código que torna cada usuário único (chave primária);
+data nasc.: campo que armazena a data de nascimento de cada usuário;
+nome completo: campo que armazena o nome completo do usuário;
+username: campo que armazena o username do usuário;
+passw: campo que armazena a senha do usuário;
+endereço: campo que armazena o cep, número e complemento do endereço do usuário;
+cep: campo que armazena o cep do usuário;
+número: campo que armazena o número da residência do usuário;
+complemento: campo que armazena, se existir, o complemento da residência do usuário;
 
-Local: Tabela que armazena informações do edereço do usuário.
+Estado: Tabela que armazena infromações do estado onde o usuário reside.
+id_estado: campo que armazena o código do estado;
+descricao: campo que armazena o nome do estado;
 
-Localidade: Tabela que armazena informações da localidade da planta.
+Cidade: Tabela que armazena informações da cidade onde o usuário reside.
+id_cidade: campo que armazena o código da cidade;
+descricao: campo que armazena o nome da cidade;
 
-Tipos: Tabela que armazena informações dos tipos das plantas.
+Bairro: Tabela que armazena informações do bairro onde o usuário reside.
+id_bairro: campo que armazena o código do bairro;
+descricao: campo que armazena o nome do bairro;
 
-Planta: Tabela que armazena informações das plantas.
+Tipo_Usuario: Tabela que armazena informações do tipo de usuário.
+id_tipo_usuario: campo que armazena o código da tipo de usuário;
+descricao: campo que armazena se o usuário é administrador ou usuário comum;
+
+Contato: Tabela que armazena informações de contato;
+id_contato: campo que armazena o código do contato;
+descricao: campo que armazena os contatos do usuário;
+
+Tipo_Contato: tabela que armazena informações dos tipos de contato;
+id_tipo_contato: campo que armazena o código do tipo de contato;
+descricao: campo que armazena o tipo de contato do usuário(email, telefone fixo, celular, etc)
+
+Planta: tabela que armazena informações sobre as plantas;
+id_planta: campo que armazena o código da planta;
+tamanho_aprox: campo que armazena o tamanho aproximado da planta;
+
+Nome_Popular: tabela que armazena informações sobre o nome popular da planta;
+id_nome_popular: campo que armazena o código do nome popular da planta;
+descricao: campo que armazena o(s) nome(s) popular(es) da planta;
+
+Cor_Folha: tabela que armazena informações sobre a cor das folhas da planta;
+id_cor_da_folha: camp que armazena o código da cor da folha;
+descricao: campo que armazena a cor da folha;
+
+Tamanho_Folha: tabela que armazena informações do tamanho da folha;
+id_tamanho: camp que armazena o código do tamanho da folha;
+descricao: campo que armazena o tamanho da folha;
+
+Textura_Folha: tabela que armazena informações sobre a textura das folhas da planta;
+id_textura: campo que armazena o código da textura da planta;
+descricao: campo que armazena o nome da textura da planta;
+
+Local: tabela que armazena informações sobre o local onde a planta é encontrada;
+lat: campo que armazena a latitude da localização da planta;
+longi: campo que armazena a longitude da localização da planta;
+
+Tipo_Planta: tabela que armazena infromações sobre o tipo da planta;
+id: campo que armazena o código do tipo da planta;
+nome: nome do tipo de planta (briofita, angiosperma, etc);
+detalhamento: campo que armazena os detalhes dos tipo de planta (monocotiledônea, dicotiledônea)
+
+Receita: tabela que armazena informações sobre as receitas da planta;
+id_receita: campo que armazena o código de receita da planta;
+descricao: campo que armazena as receitas da planta (como fazer o chá, como fazer o banho, etc);
+
+Modo_de_Uso: tabela que armazena informações sobre o modo de uso da planta;
+id_mododeuso: campo que armazena o código do modo de uso;
+descricao: campo que armazena os tipode modo e uso da planta(chá, banho, etc).
+
+
+
 
 ### 6	MODELO LÓGICO<br>
 https://github.com/PlantasMedicinais/Trabalho01/blob/master/ModeloLogicoBDAtualizado.brM

@@ -185,6 +185,7 @@ select descricao, id_nome_popular, id_planta from nome_popular;
 
 select textura_folha, foto, tipo_folha, modo_de_uso, indicacoes, nome_cientifico, id_usuario, id, id_textura from planta;
 
+
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/10.png?raw=true "Title")
 
 select id_receita, descricao from receita;
@@ -243,7 +244,17 @@ where id_usuario > 3 and Bairro != 'Novo Horizonte';
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print2.png?raw=true "Title")
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+select Nome_Completo, username from usuario 
+where username like 'w%';
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print3.png?raw=true "Title")
 
+select Nome_Completo, id_usuario from usuario
+where Nome_Completo like 's%' and id_usuario > 9;
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print4.png?raw=true "Title")
+
+select Nome_Completo, Cidade from usuario
+where Cidade like '_e%';
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print5.png?raw=true "Title")
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>

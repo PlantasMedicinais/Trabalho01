@@ -114,7 +114,7 @@ https://github.com/PlantasMedicinais/Trabalho01/blob/master/ModeloLogicoBDAtuali
 
 ### 7	MODELO FÍSICO<br>
 
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/ModeloFisicoBD.sql
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/F%C3%ADsico.sql
 
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>

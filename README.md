@@ -347,6 +347,13 @@ left join planta on(planta.id_planta = usuario.id_usuario);
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print20.png?raw=true "Title")
 
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
+
+select usuario.Nome_Completo, bairro.descricao from usuario join bairro on (usuario.id_usuario = bairro.id_bairro)
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print24.png?raw=true "Title")
+
+
+
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
 select Nome_Completo, Bairro, Rua from usuario 
 where Bairro in(select Bairro from usuario where Bairro != 'Cocal');

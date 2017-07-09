@@ -278,6 +278,7 @@ select nome_Completo, username, id_usuario from  usuario;
 update planta set textura_folha = 'áspera' where id_planta = 2;
 select Nome_Cientifico, id_planta, textura_folha from planta;
 
+
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print8.png?raw=true "Title")
 
 delete from usuario where id_usuario >13;
@@ -328,28 +329,43 @@ group by Data_Nasc;
 select Nome_Completo, Data_Nasc, tipo_usuario.Descricao from tipo_usuario
 right outer join usuario on(usuario.id_usuario = tipo_usuario.id_tipo_usuario); 
 
-![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print17.png?raw=true "Title")
 
 select descricao, usuario.Nome_Completo, usuario.Data_Nasc from usuario
 right join tipo_usuario on(tipo_usuario.id_tipo_usuario = usuario.id_usuario);
 
-![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print18.png?raw=true "Title")
 
 select passw, Nome_Completo, planta.textura_folha from planta
 left join usuario on(usuario.id_usuario = planta.id_planta);
 
-![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print19.png?raw=true "Title")
 
 select usuario.passw, usuario.Nome_Completo, textura_folha from usuario
 left join planta on(planta.id_planta = usuario.id_usuario);
 
-![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print20.png?raw=true "Title")
 
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
+select Nome_Completo, Bairro, Rua from usuario 
+where Bairro in(select Bairro from usuario where Bairro != 'Cocal');
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print21.png?raw=true "Title")
+
+select Nome_Completo, Data_Nasc from usuario
+where Nome_Completo in(select Nome_Completo from usuario where Nome_Completo like 'Sabrina%');
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print22.png?raw=true "Title")
+
+select id_planta, Nome_Cientifico, textura_folha from planta
+where textura_folha in(select textura_folha from planta where id_Planta < 3);
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print23.png?raw=true "Title")
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
-        Entrega até este ponto em (data a ser definida)
+Nosso grupo, em toda execução do trabalho, encontrou dificuldades em executar os tópicos relacionados ao comando JOIN (left/right outer join, self join, inner join).
         
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/

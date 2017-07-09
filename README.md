@@ -263,6 +263,39 @@ where Cidade like '_e%';
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print5.png?raw=true "Title")
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+update usuario set Data_Nasc = '1992-11-25' where id_usuario = 10;
+select nome_Completo, Data_Nasc, id_usuario from usuario;
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print6.png?raw=true "Title")
+
+update usuario set username = 'bibi02' where id_usuario = 11;
+select nome_Completo, username, id_usuario from  usuario;
+
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print7.png?raw=true "Title")
+
+update planta set textura_folha = 'áspera' where id_planta = 2;
+select Nome_Cientifico, id_planta, textura_folha from planta;
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print8.png?raw=true "Title")
+
+delete from usuario where id_usuario >13;
+select id_usuario, nome_Completo from usuario;
+
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print9.png?raw=true "Title")
+
+delete from planta where id_planta >= 3;
+select Nome_Cientifico, tamanho_aprox, id_planta from planta;
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print10.png?raw=true "Title")
+
+delete from bairro where id_bairro = 50;
+select * from bairro;
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print11.png?raw=true "Title")
+
+
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
         Entrega até este ponto em (data a ser definida)

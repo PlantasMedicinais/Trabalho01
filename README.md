@@ -170,6 +170,7 @@ select longi,lat,id_planta from localidade;
 
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/6.png?raw=true "Title")
 
+
 select id_mododeuso, descricao from modo_de_uso;
 
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/7.png?raw=true "Title")
@@ -233,7 +234,16 @@ select * from textura_folha where descricao = 'lisa'
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/21.png?raw=true "Title")
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+select Nome_Completo, id_usuario from usuario 
+where id_usuario > 12;
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print1.png?raw=true "Title")
+
+select Complemento, Nome_Completo, Bairro from usuario
+where id_usuario > 3 and Bairro != 'Novo Horizonte';
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print2.png?raw=true "Title")
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>

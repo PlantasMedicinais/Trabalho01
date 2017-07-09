@@ -225,6 +225,7 @@ select * from usuario where cidade = 'vila velha'
 
 select * from usuario where estado = 'ES'
 
+
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/19.png?raw=true "Title")
 
 select * from planta where tipo_folha = 'grande'
@@ -298,8 +299,31 @@ select * from bairro;
 
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-        Entrega até este ponto em (data a ser definida)
-        
+select Nome_Cientifico, id_planta, textura_folha from planta
+group by textura_folha;
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print12.png?raw=true "Title")       
+
+select Nome_Completo, id_usuario from usuario
+group by Nome_Completo;
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print13.png?raw=true "Title")
+
+select Data_Nasc, Nome_Completo from usuario 
+group by Data_Nasc having Data_Nasc != '2000-11-25';
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print14.png?raw=true "Title")
+
+select Data_Nasc, Nome_Completo from usuario 
+group by Data_Nasc;
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print15.png?raw=true "Title")
+
+select Rua, Nome_Completo from usuario
+group by Data_Nasc;
+
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print16.png?raw=true "Title")
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>

@@ -204,6 +204,7 @@ select descricao, id_tipodecontato from tipo_contato;
 
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/14.png?raw=true "Title")
 
+
 select detalhamento, nome, id from tipo_planta;
 
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/15.png?raw=true "Title")
@@ -237,24 +238,30 @@ select * from textura_folha where descricao = 'lisa'
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 select Nome_Completo, id_usuario from usuario 
 where id_usuario > 12;
+
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print1.png?raw=true "Title")
 
 select Complemento, Nome_Completo, Bairro from usuario
 where id_usuario > 3 and Bairro != 'Novo Horizonte';
+
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print2.png?raw=true "Title")
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 select Nome_Completo, username from usuario 
 where username like 'w%';
+
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print3.png?raw=true "Title")
 
 select Nome_Completo, id_usuario from usuario
 where Nome_Completo like 's%' and id_usuario > 9;
+
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print4.png?raw=true "Title")
 
 select Nome_Completo, Cidade from usuario
 where Cidade like '_e%';
+
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print5.png?raw=true "Title")
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>

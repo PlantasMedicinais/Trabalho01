@@ -394,11 +394,13 @@ select usuario.Nome_Completo, bairro.descricao from usuario join bairro on (usua
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print24.png?raw=true "Title")
 
 create view verlocalidadeusuario as select cidade, bairro, rua, estado from usuario;
+
 select * from verlocalidadeusuario;
 
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print26.png?raw=true "Title")
 
 create view planta1 as select id_planta, tamanho_aprox, tipo_folha from planta;
+
 select * from planta1;
 
 ![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/print27.png?raw=true "Title")

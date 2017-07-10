@@ -1,4 +1,4 @@
-# TRABALHO 01
+# PLANTAS MEDICINAIS
 Trabalho desenvolvido durante a disciplina de BD
 
 # Sumário

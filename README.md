@@ -426,3 +426,4 @@ where textura_folha in(select textura_folha from planta where id_Planta < 3);
 Nosso grupo, em toda execução do trabalho, encontrou dificuldades em executar o tópico relacionado à subconsultas.
         
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+:+1:

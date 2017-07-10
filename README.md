@@ -150,8 +150,8 @@ descricao: campo que armazena os tipode modo e uso da planta(chá, banho, etc).
 
 
 ### 6	MODELO LÓGICO<br>
-https://github.com/PlantasMedicinais/Trabalho01/blob/master/ModeloLogicoBDAtualizado.brM
-![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/printatualizadologico.png?raw=true "Title")
+https://github.com/PlantasMedicinais/Trabalho01/blob/master/LOGICO_1.brM
+![Alt text](https://github.com/PlantasMedicinais/Trabalho01/blob/master/Print%20L%C3%B3gico.png?raw=true "Title")
 
 ### 7	MODELO FÍSICO<br>
 
